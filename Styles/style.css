@@ -99,13 +99,39 @@ border-radius: 48px;
     display: flex;
     justify-content: space-around;
     text-align: center;
+    gap: 158px;
 }
 .stats-h3{
   font-size: 38px;
   font-weight: bold;
     text-align: center;
+    color: #252432;
 }
 .stats-item h3{
     font-size: 80px;
     font-weight: bold;
+    margin-top: 40px;
+    color: #4E47FF;
+}
+.wholesome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;       /* vertically center */
+  align-items: center;           /* horizontally center */
+  text-align: center;
+
+  padding: 80px 50px;
+  background-color: #E5E7FF;
+  margin: 0 auto;
+  margin-top: 116px;
+  border-radius: 24px;
+  height: 306px;
+}
+
+.stats-item {
+  display: flex;
+  gap: 158px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
