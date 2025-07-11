@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    background: #6366f1;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.logo {
+    font-size: 34px;
+   
+    font-weight: bold;
+    color: #6366f1;
+}
+.container{
+  
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.header {
+
+    padding: 20px 0;
+   
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero {
+    background: linear-gradient(135deg, #f8f9fb 0%, #e5e7eb 100%);
+    padding: 100px 0;
+    text-align: center;
+}
+.class{
+
+background-image: url(/Assets/Hero-bg.png);
+
+}
+
+
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-content{
+    width: 50%;
+}
+.action-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-content{
+    justify-content: center;
+    padding: 100px 0;
+}
+.section-content h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+.section-content  p {
+    font-size: 24px;
+    color: #6b7280;
+    margin-bottom: 30px;.
+    font-weight: normal;
+}
+
+.action-image img
+{     
+border-radius: 48px;
+        width: 403px;
+    height: 328px;
+}
+.stats-item{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.stats-h3{
+  font-size: 38px;
+  font-weight: bold;
+    text-align: center;
+}
+.stats-item h3{
+    font-size: 80px;
+    font-weight: bold;
+}
